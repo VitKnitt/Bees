@@ -8,7 +8,7 @@ export function AboutUs() {
   id="AboutUs"
   className="scroll-mt-[70px] bg-secondary bg-cover bg-center bg-opacity-[90%] 
   grid grid-cols-1 md:grid-cols-2 md:grid-rows-2
-  md:w-[80%] m-auto md:rounded-xl gap-10 p-5 pt-32 lg:pl-20"
+  md:w-[80%] m-auto md:rounded-xl gap-10 px-5 pt-32 lg:pl-20 pb-32"
 >
   <AboutUsText />
   
