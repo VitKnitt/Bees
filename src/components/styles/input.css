@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  button {
+    @apply px-4 py-2 bg-tercialy text-primaryFont rounded-lg shadow-md transition;
+  }
+
+  button:hover {
+    @apply bg-secondary text-secondaryFont;
+  }
+
+  h1 {
+    @apply text-4xl font-bold text-primaryFont mb-4;
+  }
+  h2 {
+    @apply text-3xl font-semibold text-primaryFont mb-3;
+  }
+  h3 {
+    @apply text-2xl font-medium text-primaryFont mb-2;
+  }
+
+  p {
+    @apply text-base leading-relaxed text-primaryFont mb-4;
+  }
+
+  label {
+    @apply block text-sm font-medium text-primaryFont;
+  }
+
+  ul {
+    @apply list-disc list-inside mb-4 text-primaryFont;
+  }
+
+  li {
+    @apply mb-2;
+  }
+
+  input, textarea {
+    @apply w-full px-4 py-2 border border-secondary rounded-lg shadow-sm 
+           focus:outline-none focus:ring-2 focus:ring-tercialy focus:border-tercialy
+           transition;
+  }
+
+  textarea {
+    @apply min-h-[120px] resize-y;
+  }
+
+  form {
+    @apply mx-auto max-w-lg space-y-4 rounded-2xl bg-white p-6 shadow-md;
+  }
+}
+
+@layer utilities {
+  .blueBorder { @apply border-2 border-blue-500; }
+}
