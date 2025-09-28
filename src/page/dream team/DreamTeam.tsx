@@ -5,7 +5,7 @@ export function DreamTeam() {
   //bg-fixed
   //bg-[url('/backGround/cccoil.svg')]
   return (
-    <section className="bg-secondary bg-cover bg-center flex flex-wrap justify-evenly gap-10 p-5 pb-20 md:w-[80%] m-auto md:rounded-xl">
+    <section className="bg-secondary bg-cover bg-center flex flex-wrap justify-evenly gap-10 p-5 pb-8 md:w-[80%] m-auto md:rounded-xl">
   {/* Josef Čermák */}
   <div className="flex flex-col items-center text-center max-w-xs p-4 rounded-lg shadow-lg">
     <img className="h-auto p-4" src={josef} alt="Josef Čermák" />

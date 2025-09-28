@@ -15,7 +15,7 @@ export default function GalleryPhoto() {
   return (
     <div className="relative bg-primary w-full max-w-2xl mx-auto">
       {/* wrapper s pevnou výškou */}
-      <div className="relative w-full h-[40rem] overflow-hidden rounded-lg shadow-lg">
+      <div className="relative w-full h-[25rem] sm:h-[40rem] overflow-hidden rounded-lg shadow-lg">
         {images.map((src, index) => (
           <img
             key={index}

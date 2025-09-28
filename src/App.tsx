@@ -13,7 +13,7 @@ import { WhyUs } from "./page/whyUs/WhyUs";
 
 function App() {
   return (
-   <div className="bg-[url('/backGround/hexagon10.svg')] bg-repeat bg-[length:6%_auto]">
+   <div className="sm:bg-[url('/backGround/hexagon10.svg')] bg-secondary bg-repeat bg-[length:6%_auto]">
       <Header />
       <FadeIn children={<Introduction />} />
       <FadeIn children={<AboutUs />} />

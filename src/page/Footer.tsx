@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer
       id="Kontakt"
-      className="scroll-mt-[70px] bg-secondary text-gray-300 py-10"
+      className="scroll-mt-[70px] bg-secondary text-gray-300 py-10 border-t-4 border-tercialy text-center"
     >
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Logo + krátký text */}

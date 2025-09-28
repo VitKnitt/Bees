@@ -6,7 +6,7 @@ export function Goods() {
   return (
     <section
       id="Products"
-      className="scroll-mt-[0px] bg-[url('/backGround/blob.svg')] bg-cover bg-center flex justify-evenly flex-wrap gap-10 p-5 pt-[100px] pb-40"
+      className="scroll-mt-[0px] bg-[url('/backGround/blob.svg')] bg-cover bg-center flex justify-evenly flex-wrap gap-10 p-5 pt-[100px] pb-30"
     >
       <article className="max-w-prose p-4 bg-secondary rounded-[20%]">
         <h2 className="text-2xl font-bold mb-3 md:text-5xl border-b-4 border-tercialy">Naše lahodné medy</h2>

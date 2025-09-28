@@ -4,7 +4,7 @@ export function WhyUs() {
   //bg-fixed
   //bg-[url('/backGround/cccoil.svg')]
   return (
-    <section className="bg-[url('/backGround/waveDown.svg')] bg-cover flex justify-evenly flex-wrap gap-8 p-5 pt-20 pb-[250px]"
+    <section className="bg-[url('/backGround/waveDown.svg')] bg-cover flex justify-center md:justify-evenly flex-wrap gap-8 p-5 pt-32 pb-[120px]"
     id="Specification">
       <article className="max-w-prose p-4">
         <h3 className="text-secondary text-xl font-bold">
